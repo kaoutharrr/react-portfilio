@@ -6,7 +6,7 @@
 //   return (
 //     <div className="portfolio">
 //       <header className="header">
-//         <h1>Hubi's Portfolio</h1>
+//         <h1>kaouthar's Portfolio</h1>
 //         <nav>
 //           <ul>
 //             <li><a href="#about">About Me</a></li>
@@ -20,7 +20,7 @@
 //       <section id="about" className="about">
 //         <h2>About Me</h2>
 //         <p>
-//           Hello! I'm Hubi, a passionate software developer and full-time student at 1337. I thrive on solving problems, learning new technologies, and creating innovative solutions. I'm currently working on backend development using Django, PostgreSQL, and Docker.
+//           Hello! I'm kaouthar, a passionate software developer and full-time student at 1337. I thrive on solving problems, learning new technologies, and creating innovative solutions. I'm currently working on backend development using Django, PostgreSQL, and Docker.
 //         </p>
 //       </section>
 
@@ -57,14 +57,14 @@
 //           Feel free to reach out for collaboration or opportunities!
 //         </p>
 //         <ul>
-//           <li>Email: hubi@example.com</li>
-//           <li>LinkedIn: <a href="https://linkedin.com/in/hubi" target="_blank" rel="noopener noreferrer">linkedin.com/in/hubi</a></li>
-//           <li>GitHub: <a href="https://github.com/hubi" target="_blank" rel="noopener noreferrer">github.com/hubi</a></li>
+//           <li>Email: kaouthar@example.com</li>
+//           <li>LinkedIn: <a href="https://linkedin.com/in/kaouthar" target="_blank" rel="noopener noreferrer">linkedin.com/in/kaouthar</a></li>
+//           <li>GitHub: <a href="https://github.com/kaouthar" target="_blank" rel="noopener noreferrer">github.com/kaouthar</a></li>
 //         </ul>
 //       </section>
 
 //       <footer className="footer">
-//         <p>© 2025 Hubi. All Rights Reserved.</p>
+//         <p>© 2025 kaouthar. All Rights Reserved.</p>
 //       </footer>
 //     </div>
 //   );
@@ -84,7 +84,7 @@ function App() {
   return (
     <div className="portfolio">
       <header className="header">
-        <h1>Hubi's Portfolio</h1>
+        <h1>kaouthar's Portfolio</h1>
         <nav>
           <ul>
             <li><a href="#about">About Me</a></li>
@@ -98,9 +98,9 @@ function App() {
       <main>
         <section id="about" className="about fade-in">
           <h2>About Me</h2>
-          <img src={profileImage} alt="Hubi" className="profile-image" />
+          <img src={profileImage} alt="kaouthar" className="profile-image" />
           <p>
-            Hello! I'm Hubi, a passionate software developer and full-time student at 1337. I thrive on solving problems, learning new technologies, and creating innovative solutions. I'm currently working on backend development using Django, PostgreSQL, and Docker.
+            Hello! I'm kaouthar, a passionate software developer and full-time student at 1337. I thrive on solving problems, learning new technologies, and creating innovative solutions. I'm currently working on backend development using Django, PostgreSQL, and Docker.
           </p>
         </section>
 
@@ -140,15 +140,15 @@ function App() {
             Feel free to reach out for collaboration or opportunities!
           </p>
           <ul>
-            <li>Email: hubi@example.com</li>
-            <li>LinkedIn: <a href="https://linkedin.com/in/hubi" target="_blank" rel="noopener noreferrer">linkedin.com/in/hubi</a></li>
-            <li>GitHub: <a href="https://github.com/hubi" target="_blank" rel="noopener noreferrer">github.com/hubi</a></li>
+            <li>Email: kaouthar@example.com</li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/kaouthar-kouaz/" target="_blank" rel="noopener noreferrer">linkedin.com/in/kaouthar-kouaz</a></li>
+            <li>GitHub: <a href="https://github.com/kaoutharrr" target="_blank" rel="noopener noreferrer">github.com/kaoutharrr</a></li>
           </ul>
         </section>
       </main>
 
       <footer className="footer">
-        <p>© 2025 Hubi. All Rights Reserved.</p>
+        <p>© 2025 kaouthar. All Rights Reserved.</p>
       </footer>
     </div>
   );
