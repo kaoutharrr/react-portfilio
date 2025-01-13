@@ -98,6 +98,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif; /* Modern font */
@@ -209,6 +213,19 @@ section h2::after {
 
 .profile-image:hover {
   transform: scale(1.1);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#about p {
+  padding: 0 75px;
+}
+#projects {
+  flex-direction: row;
 }
 
 /* Skills Section */
