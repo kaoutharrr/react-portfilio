@@ -5,16 +5,13 @@ FROM node:16
 WORKDIR /app
 
 # Copy package.json and package-lock.json to the container
-COPY package*.json ./
+COPY --chown=node:node package*.json ./
 
-# Install dependencies (including web-vitals)
+# Install dependencies
 RUN npm install
 
-# Install web-vitals specifically (if not already in package.json)
-RUN npm install web-vitals --save
-
-# Copy the rest of the application code
-COPY . .
+# Copy the rest of the application code with correct ownership
+COPY --chown=node:node . .
 
 # Expose the port your app runs on
 EXPOSE 3000
